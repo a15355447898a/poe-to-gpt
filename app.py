@@ -44,19 +44,12 @@ client_dict = {}
 api_key_cycle = None
 
 bot_names = {
-    "Assistant", "GPT-3.5-Turbo", "GPT-3.5-Turbo-16k", "GPT-3.5-Turbo-lnstruct", "GPT-4o", "GPT-4o-128k",
-    "GPT-4o-Mini", "GPT-4o-Mini-128k", "ChatGPT-4o-Latest", "ChatGPT-4o-Latest-128k", "GPT-4o-Aug-128k",
-    "o1", "o1-mini", "o1-preview", "Claude-3.5-Sonnet", "Claude-3.5-Sonnet-200k", "Claude-3.5-Haiku",
-    "Claude-3.5-Haiku-200k", "Claude-3.5-Sonnet-June", "Claude-3.5-Sonnet-June-200k", "Claude-3-opus",
-    "Claude-3-opus-200k", "Claude-3-Sonnet", "Claude-3-Sonnet-200k", "Claude-3-Haiku", "Claude-3-Haiku-200k",
-    "Gemini-2.0-Flash","Gemini-1.5-Pro", "Gemini-1.5-Pro-Search", "Gemini-1.5-Pro-128k", "Gemini-1.5-Pro-2M", "Gemini-1.5-Flash",
-    "Gemini-1.5-Flash-Search", "Gemini-1.5-Flash-128k", "Gemini-1.5-Flash-1M", "Grok-beta","Qwen-QwQ-32b-preview",
-    "Qwen-2.5-Coder-32B-T", "Qwen-2.5-72B-T", "Llama-3.1-405B", "Llama-3.1-405B-T", "Llama-3.1-405B-FP16",
-    "Llama-3.1-405B-FW-128k", "Llama-3.1-70B", "Llama-3.1-70B-FP16", "Llama-3.1-70B-T-128k",
-    "Llama-3.1-70B-FW-128k", "Llama-3.1-8B", "Llama-3.1-8B-FP16", "Llama-3.1-8B-T-128k", "DALL-E-3",
-    "StableDiffusionXL", "StableDiffusion3.5-T", "StableDiffusion3.5-L", "StableDiffusion3", "SD3-Turbo",
-    "FLUX-pro", "FLUX-pro-1.1", "FLUX-pro-1.1-T", "FLUX-pro-1.1-ultra", "FLUX-schnell", "FLUX-dev",
-    "Luma-Photon", "Luma-Photon-Flash", "Playground-v3", "Ideogram-v2", "Imagen3", "Imagen3-Fast"
+    "GPT-3.5-Turbo","GPT-4o-Mini","ChatGPT-4o-Latest",
+    "o1", "o1-mini", "o1-preview", "o3-mini" , "o3-mini-high",
+    "Claude-3.5-Sonnet", "Claude-3.5-Haiku", "Claude-3-opus",
+    "Gemini-2.0-Flash","Gemini-1.5-Pro", "Gemini-1.5-Pro-Search",
+    "DeepSeek-R1",
+    "DALL-E-3"
 }
 
 bot_names_map = {name.lower(): name for name in bot_names}
