@@ -47,7 +47,7 @@ bot_names = {
     "GPT-3.5-Turbo","GPT-4o-Mini","ChatGPT-4o-Latest",
     "o1", "o1-mini", "o1-preview", "o3-mini" , "o3-mini-high",
     "Claude-3.5-Sonnet", "Claude-3.5-Haiku", "Claude-3-opus",
-    "Gemini-2.0-Flash","Gemini-1.5-Pro", "Gemini-1.5-Pro-Search",
+    "Gemini-2.0-Flash","Gemini-1.5-Pro", "Gemini-1.5-Pro-Search","Gemini-2.0-Pro",
     "DeepSeek-R1",
     "DALL-E-3"
 }

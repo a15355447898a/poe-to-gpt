@@ -64,7 +64,7 @@ o1-mini
 
 o1-preview
 
-o3-mini 
+o3-mini
 
 o3-mini-high
 
@@ -79,6 +79,8 @@ Gemini-2.0-Flash
 Gemini-1.5-Pro
 
 Gemini-1.5-Pro-Search
+
+Gemini-2.0-Pro
 
 DeepSeek-R1
 
